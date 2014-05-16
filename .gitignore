@@ -7,3 +7,8 @@ out
 *.ipr
 *.properties
 build.xml
+.settings
+Thumbs.db
+armeabi
+x86
+obj

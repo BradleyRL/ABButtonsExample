@@ -22,10 +22,15 @@ import android.os.Bundle;
 import android.view.View;
 
 public class MainActivity extends Activity {
+	
+	
+	
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        
         setContentView(R.layout.activity_main);
-
+        
+        
         findViewById(R.id.done_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -39,5 +44,7 @@ public class MainActivity extends Activity {
                 startActivity(new Intent(MainActivity.this, DoneDiscardActivity.class));
             }
         });
+        
+        
     }
 }
